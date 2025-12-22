@@ -292,32 +292,7 @@ export default function CSRPage() {
                   </div>
       
                   {/* Same layout for consistency */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-                    {[
-                      "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093845/IMG-20231206-WA0012_hysx3l.jpg",
-                      "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093847/IMG-20231206-WA0054_nc25ip.jpg",
-                      "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093844/IMG-20231206-WA0048_poj4kh.jpg",
-                      "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093825/IMG-20231206-WA0018_ipotnj.jpg",
-                    ].map((imgSrc, idx) => (
-                      <motion.div
-                        key={idx}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: idx * 0.1 }}
-                        whileHover={{ y: -5 }}
-                        className="relative w-full aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all cursor-pointer group"
-                      >
-                        <Image
-                          src={imgSrc || "/placeholder.svg"}
-                          alt={`Endoscope Project Image ${idx + 1}`}
-                          fill
-                          className="object-fill transition-transform duration-700 group-hover:scale-110"
-                        />
-                        <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
-                      </motion.div>
-                    ))}
-                  </div>
+                  
                 </div>
               </div>
             </section>
@@ -422,7 +397,7 @@ export default function CSRPage() {
               <div className="flex-1 overflow-y-auto bg-gray-100 p-0 md:p-6">
                  <div className="bg-white shadow-lg mx-auto">
                     <Image 
-                      src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766132506/Screenshot_2025-12-19_134112_js329n.png" 
+                      src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766399036/Approval_Letter_Women_s_-CSR_ACTIVITIES_1__page-0001_ohogf3.jpg" 
                       alt="Official CSR Approval Letter" 
                       width={1000} height={1400}
                       className="w-full h-auto block" priority

@@ -771,7 +771,7 @@ export default function DonatePage() {
                <div className="flex-1 overflow-y-auto bg-gray-100 p-4 md:p-8">
                   <div className="bg-white shadow-lg mx-auto w-full">
                       <Image 
-                        src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766136367/80G_Ceritficate_for_Receipt_page-0001_uxlp2z.jpg" 
+                        src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766399003/ASPWCT_80G_CERTIFICATE_1__page-0001_g1jeqw.jpg" 
                         alt="80G Certificate Document" 
                         width={800}
                         height={1100}

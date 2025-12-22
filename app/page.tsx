@@ -1655,11 +1655,9 @@ function Leadership() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 max-w-6xl mx-auto">
           {[
-            { name: "Mrs. V. Lakshmi", role: "President / Executive Trustee" },
-            { name: "Mr. G.B. Anbalagan", role: "Vice President / Trustee" },
-            { name: "Mr. G.B. Senthil Kumar", role: "Vice President / Trustee" },
-            { name: "Mrs. B. Sridevi", role: "Treasurer / Trustee" },
-            { name: "Mrs. B. Umadevi", role: "Secretary / Trustee" },
+  { name: "Mrs. V. Lakshmi", role: "President / Trustee" },
+  { name: "Mrs. B. Umadevi", role: "Vice President / Trustee" },
+  { name: "Mrs. B. Sridevi", role: "Secretary / Trustee" },
           ].map((trustee, idx) => (
             <motion.div
               key={idx}
@@ -1691,10 +1689,12 @@ function Leadership() {
         {/* General Trustees Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {[
-            { name: "Mr. R. Karunanithi", role: "Trustee" },
-            { name: "Mr. K. Arulmozhi", role: "Trustee" },
-            { name: "Mr. S.R. Raghuvir", role: "Trustee" },
-            { name: "Mr. A. Saiprasad", role: "Trustee" },
+  { name: "Mrs. A. Asharani", role: "Trustee" },
+  { name: "Dr. E. Srilekha", role: "Trustee" },
+  { name: "Mrs. M. Vanitha", role: "Trustee" },
+  { name: "Mrs. A. Madhumalar", role: "Trustee" },
+  { name: "Miss. S. Monasakthi", role: "Trustee" },
+  { name: "Mrs. A. Sasikala", role: "Trustee" },
           ].map((trustee, idx) => (
             <motion.div
               key={trustee.name}
@@ -1784,7 +1784,7 @@ function CsrRegistration() {
           >
             <div className="bg-white p-2">
                 <Image 
-                  src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766132506/Screenshot_2025-12-19_134112_js329n.png" 
+                  src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766399036/Approval_Letter_Women_s_-CSR_ACTIVITIES_1__page-0001_ohogf3.jpg" 
                   alt="Official CSR Approval Letter" 
                   width={800}
                   height={1000}
@@ -2280,7 +2280,7 @@ function Donation() {
 
               <div className="flex justify-center bg-gray-50 rounded-xl p-4 border border-gray-100">
                 <Image
-                  src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766169266/Screenshot_2025-12-20_000354_vxwwyc.png"
+                  src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766399003/ASPWCT_80G_CERTIFICATE_1__page-0001_g1jeqw.jpg"
                   alt="80G Certificate"
                   width={800}
                   height={1000}
@@ -2466,43 +2466,7 @@ function CsrProjects() {
           </div>
           
            {/* ================= PROJECT 2: ENDOSCOPE MACHINE ================= */}
-          <div>
-            <div className="text-center mb-10">
-              <span className="inline-block px-4 py-2 bg-[#a7150b]/10 text-[#a7150b] rounded-full text-xs font-bold tracking-widest uppercase mb-4">
-                CSR Initiative 02
-              </span>
-              <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground">Endoscopy Machine by ICICI</h2>
-            </div>
-
-            {/* Same layout for consistency */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {[
-                "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093845/IMG-20231206-WA0012_hysx3l.jpg",
-                "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093847/IMG-20231206-WA0054_nc25ip.jpg",
-                "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093844/IMG-20231206-WA0048_poj4kh.jpg",
-                "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766093825/IMG-20231206-WA0018_ipotnj.jpg",
-              ].map((imgSrc, idx) => (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: idx * 0.1 }}
-                  whileHover={{ y: -5 }}
-                  className="relative w-full aspect-square rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all cursor-pointer group"
-                >
-                  <Image
-                    src={imgSrc || "/placeholder.svg"}
-                    alt={`Endoscope Project Image ${idx + 1}`}
-                    fill
-                    className="object-fill transition-transform duration-700 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </div>
+                  </div>
       </section>
   )
 }

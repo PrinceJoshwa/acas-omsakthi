@@ -425,7 +425,7 @@ export default function DonatePage() {
                               </p>
 
                               {/* Donate Button */}
-                              <Link href="/donate-us">
+                              <Link href="https://aspwct.omsakthiamma.in">
                                  <Button className="w-full py-6 bg-[#ffc107] hover:bg-[#e6ad00] text-[#1a1a1a] font-bold text-lg rounded-xl shadow-lg">
                                     DONATE NOW →
                                  </Button>
@@ -507,7 +507,7 @@ export default function DonatePage() {
                   <p className="text-[#1a1a1a]/80 leading-relaxed mb-8">
                      Your donation helps us serve communities through healthcare, education, and cultural preservation. All donations are eligible for 80G tax benefits.
                   </p>
-                  <Link href="/donate-us">
+                  <Link href="https://aspwct.omsakthiamma.in">
                      <Button className="bg-[#a7150b] hover:bg-[#8a0d08] text-white text-lg px-10 py-6 rounded-full shadow-xl">
                         <Heart className="w-5 h-5 mr-2 fill-current" /> Donate Now (Indian Donors)
                      </Button>

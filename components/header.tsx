@@ -303,7 +303,7 @@ const navItems = [
   { label: "About the trust", href: "/about-us" },
   { label: "Donate", href: "/80g-donate" },
   { label: "CSR Donation", href: "/csr" },
-  { label: "FCRA", href: "/fcra" },
+  // { label: "FCRA", href: "/fcra" },
   { label: "Educational Institution", href: "/educational-institution" },
   // { label: "Donate", href: "/donate-us" },
 ]

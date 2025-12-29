@@ -37,9 +37,9 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-[#a7150b] mb-4">Online Payments</h2>
               <p>
-                This online payment system is provided by <strong>Adhiparasakthi Siddhar Peedam</strong>. 
-                Adhiparasakthi Siddhar Peedam may update these terms from time to time and any changes will be effective immediately on being set out here. 
-                Please ensure you are aware of the current terms. The country of domicile for Adhiparasakthi Siddhar Peedam is India.
+                This online payment system is provided by <strong>Adhiparasakthi Siddhar Peeda</strong>. 
+                Adhiparasakthi Siddhar Peeda may update these terms from time to time and any changes will be effective immediately on being set out here. 
+                Please ensure you are aware of the current terms. The country of domicile for Adhiparasakthi Siddhar Peeda is India.
               </p>
             </section>
 
@@ -55,19 +55,19 @@ export default function TermsPage() {
                   The description of services of fee making are specific to your need, when you log in with your unique password. Normally payment is required in advance (i.e. before you commence your activity).
                 </li>
                 <li>
-                  All rates quoted are in Indian Rupees. The Adhiparasakthi Siddhar Peedam reserves the right to change the rate at any time.
+                  All rates quoted are in Indian Rupees. The Adhiparasakthi Siddhar Peeda reserves the right to change the rate at any time.
                 </li>
                 <li>
-                  Your payment will normally reach the Adhiparasakthi Siddhar Peedam account to which you are making a payment within two working days.
+                  Your payment will normally reach the Adhiparasakthi Siddhar Peeda account to which you are making a payment within two working days.
                 </li>
                 <li>
-                  We cannot accept liability for a payment not reaching the correct Adhiparasakthi Siddhar Peedam account due to you quoting an incorrect account number or incorrect personal details. Neither can we accept liability if payment is refused or declined by the credit/debit card supplier for any reason.
+                  We cannot accept liability for a payment not reaching the correct Adhiparasakthi Siddhar Peeda account due to you quoting an incorrect account number or incorrect personal details. Neither can we accept liability if payment is refused or declined by the credit/debit card supplier for any reason.
                 </li>
                 <li>
-                  If the card supplier declines payment the Adhiparasakthi Siddhar Peedam is under no obligation to bring this fact to your attention. You should check with your bank/credit/debit card supplier that payment has been deducted from your account.
+                  If the card supplier declines payment the Adhiparasakthi Siddhar Peeda is under no obligation to bring this fact to your attention. You should check with your bank/credit/debit card supplier that payment has been deducted from your account.
                 </li>
                 <li>
-                  In no event will the Adhiparasakthi Siddhar Peedam be liable for any damages whatsoever arising out of the use, inability to use, or the results of use of this site, any websites linked to this site, or the materials or information contained at any or all such sites, whether based on warranty, contract, tort or any other legal theory and whether or not advised of the possibility of such damages.
+                  In no event will the Adhiparasakthi Siddhar Peeda be liable for any damages whatsoever arising out of the use, inability to use, or the results of use of this site, any websites linked to this site, or the materials or information contained at any or all such sites, whether based on warranty, contract, tort or any other legal theory and whether or not advised of the possibility of such damages.
                 </li>
               </ul>
             </section>
@@ -80,7 +80,7 @@ export default function TermsPage() {
                   Any request for cancellations of orders once duly placed on the site, shall not be entertained under any circumstances.
                 </li>
                 <li>
-                  Refunds, if applicable, at the discretion of the Management, will only be made to the debit/credit card used for the original transaction. For the avoidance of doubt nothing in this Policy shall require the Adhiparasakthi Siddhar Peedam to refund the Price (or part thereof) unless such Price (or part thereof) have previously been paid.
+                  Refunds, if applicable, at the discretion of the Management, will only be made to the debit/credit card used for the original transaction. For the avoidance of doubt nothing in this Policy shall require the Adhiparasakthi Siddhar Peeda to refund the Price (or part thereof) unless such Price (or part thereof) have previously been paid.
                 </li>
               </ul>
             </section>
@@ -89,7 +89,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-2xl font-bold text-[#a7150b] mb-4">Privacy Policy</h2>
               <p className="mb-4">
-                This Privacy Policy applies to all of the products, services and websites offered by Adhiparasakthi Siddhar Peedam. Sometimes, we may post product specific privacy notices or Help Centre materials to explain our products in more detail.
+                This Privacy Policy applies to all of the products, services and websites offered by Adhiparasakthi Siddhar Peeda. Sometimes, we may post product specific privacy notices or Help Centre materials to explain our products in more detail.
               </p>
               <p className="mb-4">
                 If you have any questions about this Privacy Policy, please feel free to contact us through our website or write to us at <a href="mailto:aspwct@gmail.com" className="text-blue-600 hover:underline">aspwct@gmail.com</a>.
@@ -97,7 +97,7 @@ export default function TermsPage() {
               
               <h3 className="text-lg font-bold text-[#1a1a1a] mt-6 mb-2">Changes to our Privacy Policy</h3>
               <p>
-                Adhiparasakthi Siddhar Peedam reserves the entire right to modify/amend/remove this privacy statement anytime and without any reason. Nothing contained herein creates or is intended to create a contract/agreement between Adhiparasakthi Siddhar Peedam and any user visiting the Adhiparasakthi Siddhar Peedam website or providing identifying information of any kind.
+                Adhiparasakthi Siddhar Peeda reserves the entire right to modify/amend/remove this privacy statement anytime and without any reason. Nothing contained herein creates or is intended to create a contract/agreement between Adhiparasakthi Siddhar Peeda and any user visiting the Adhiparasakthi Siddhar Peeda website or providing identifying information of any kind.
               </p>
             </section>
 
@@ -124,7 +124,7 @@ export default function TermsPage() {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-[#1a1a1a] mb-1">Adhiparasakthi Siddhar Peedam</h3>
+                  <h3 className="font-bold text-[#1a1a1a] mb-1">Adhiparasakthi Siddhar Peeda</h3>
                   <p className="text-gray-600 text-sm">
                     Melmaruvathur,<br />
                     Kancheepuram District,<br />

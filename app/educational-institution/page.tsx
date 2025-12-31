@@ -919,7 +919,7 @@ export default function EducationalInstitutionPage() {
                   </motion.h1>
 
                   <p>
-                     The Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT), founded in 1978, believes in inclusive growth. To bring inclusiveness, education is fundamental. The trust found that many students from rural schools do not pursue higher education due to a lack of quality institutions near their residences, particularly girl students.
+                     The Adhiparasakthi Siddhar Peeda Women's Charitable Trust (ASPWCT), founded in 1988, believes in inclusive growth. To bring inclusiveness, education is fundamental. The trust found that many students from rural schools do not pursue higher education due to a lack of quality institutions near their residences, particularly girl students.
                   </p>
                   <p>
                      To bridge this gap, the Trust runs a spectrum of institutions ranging from primary schools to professional colleges. These include state board, matriculation, and CBSE schools, as well as a special home for children called Annai Illam.
@@ -1063,7 +1063,7 @@ export default function EducationalInstitutionPage() {
                   <p className="text-white/80 max-w-2xl mx-auto mb-10 text-lg">
                      Your contributions help us provide quality education and infrastructure to students from all walks of life.
                   </p>
-                  <Link href="/donate-us">
+                  <Link href="https://aspwct.omsakthiamma.in/">
                      <Button className="bg-[#ffc107] hover:bg-[#e6ac00] text-[#1a1a1a] font-bold text-lg px-8 py-6 rounded-full shadow-xl transition-transform hover:scale-105">
                         Donate Now <ArrowRight className="w-5 h-5 ml-2" />
                      </Button>

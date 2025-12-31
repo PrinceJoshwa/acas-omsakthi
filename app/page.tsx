@@ -98,7 +98,7 @@
 // //         >
 // //           <motion.div variants={fadeInUp} className="inline-block mb-6">
 // //             <span className="px-5 py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-md text-[#ffc107] text-sm font-bold tracking-widest uppercase shadow-lg">
-// //               Est. 1978 • Registered Trust
+// //               Est. 1988 • Registered Trust
 // //             </span>
 // //           </motion.div>
 
@@ -180,7 +180,7 @@
 // //           >
 // //             A Legacy of Service{" "}
 // //             <span className="relative inline-block">
-// //               <span className="relative z-10">Since 1978</span>
+// //               <span className="relative z-10">Since 1988</span>
 // //               <span className="absolute bottom-2 left-0 right-0 h-3 bg-[#ffc107] -z-0" />
 // //             </span>
 // //           </motion.h2>
@@ -204,7 +204,7 @@
 
 // //             <p>
 // //               This trust is a non-profitable organization which was founded by{" "}
-// //               <strong className="text-foreground">H.H. Bangaru Adigalar</strong> in the year 1978 with a small corpus
+// //               <strong className="text-foreground">H.H. Bangaru Adigalar</strong> in the year 1988 with a small corpus
 // //               fund and with few cents of land in Melmaruvathur.
 // //             </p>
 // //           </motion.div>
@@ -212,7 +212,7 @@
 // //           <motion.div variants={fadeInUp} className="grid grid-cols-2 gap-6">
 // //             <div className="group hover:scale-105 transition-transform">
 // //               <Card className="p-6 border-l-4 border-[#ffc107] bg-gradient-to-br from-[#ffc107]/5 to-transparent hover:shadow-lg transition-shadow">
-// //                 <h4 className="text-4xl font-bold text-foreground mb-1">1978</h4>
+// //                 <h4 className="text-4xl font-bold text-foreground mb-1">1988</h4>
 // //                 <p className="text-sm text-muted-foreground font-medium uppercase tracking-wide">Established</p>
 // //               </Card>
 // //             </div>
@@ -1545,7 +1545,7 @@
 
 //             <p>
 //               This trust is a non-profitable organization which was founded by{" "}
-//               <strong className="text-foreground">H.H. Bangaru Adigalar</strong> in the year 1978 with a small corpus
+//               <strong className="text-foreground">H.H. Bangaru Adigalar</strong> in the year 1988 with a small corpus
 //               fund and with few cents of land in Melmaruvathur.
 //             </p>
 //           </motion.div>
@@ -2672,7 +2672,7 @@ function Hero() {
         >
           <motion.div variants={fadeInUp} className="inline-block mb-6">
             <span className="px-6 py-2 rounded-full bg-white/10 backdrop-blur-md text-[#ffc107] text-sm font-bold tracking-widest uppercase border border-white/10 shadow-xl">
-              Est. 1978 • Registered Trust
+              Est. 1988 • Registered Trust
             </span>
           </motion.div>
 
@@ -2749,7 +2749,7 @@ function About() {
           >
             A Legacy of Service{" "}
             <span className="relative inline-block whitespace-nowrap">
-              <span className="relative z-10">Since 1978</span>
+              <span className="relative z-10">Since 1988</span>
               <span className="absolute bottom-2 left-0 right-0 h-3 bg-[#ffc107]/60 -z-0" />
             </span>
           </motion.h2>
@@ -2776,7 +2776,7 @@ function About() {
 
             <p>
               This trust is a non-profitable organization which was founded by{" "}
-              <strong className="text-gray-900">H.H. Bangaru Adigalar</strong> in the year 1978 with a small corpus
+              <strong className="text-gray-900">H.H. Bangaru Adigalar</strong> in the year 1988 with a small corpus
               fund and with few cents of land in Melmaruvathur.
             </p>
           </motion.div>
@@ -2785,7 +2785,7 @@ function About() {
           <motion.div variants={fadeInUp} className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="group hover:scale-105 transition-transform">
               <Card className="p-6 border-none shadow-md bg-white hover:shadow-xl transition-shadow rounded-2xl">
-                <h4 className="text-3xl md:text-4xl font-bold text-[#ffc107] mb-1">1978</h4>
+                <h4 className="text-3xl md:text-4xl font-bold text-[#ffc107] mb-1">1988</h4>
                 <p className="text-sm text-gray-500 font-medium uppercase tracking-wide">Established</p>
               </Card>
             </div>
@@ -3030,7 +3030,7 @@ function MissionVision() {
               </div>
               <h3 className="text-3xl font-serif font-bold mb-4 text-gray-900">Our Mission</h3>
               <p className="text-gray-600 text-lg leading-relaxed">
-              The ASPWCT Trust is committed to the selfless service of humanity by managing resources with transparency and strategic foresight to deliver high-quality social welfare services.
+               To foster a society of inclusive growth and universal brotherhood by bridging the gap between rural and urban communities through holistic education and spiritual awakening. We envision a future where women and rural youth are empowered with ethical leadership, modern skills, and spiritual values, enabling them to lead lives of dignity and contribute significantly to the nation's advancement under the divine guidance of Arulthiru Bangaru Adigalar.
               </p>
             </div>
           </motion.div>
@@ -3041,8 +3041,7 @@ function MissionVision() {
                 <Eye className="text-gray-900 w-8 h-8" />
               </div>
               <h3 className="text-3xl font-serif font-bold mb-4 text-gray-900">Our Vision</h3>
-              <p className="text-gray-600 text-lg leading-relaxed font-medium">
-                To create a sustainable, inclusive society where the burdens of human suffering are alleviated through institutional excellence in healthcare, education, and cultural preservation.
+              <p className="text-gray-600 text-lg leading-relaxed">To shape a future defined by spiritual values and ethical leadership, creating a society where accessible, high-quality education drives sustainable technical advancement and the holistic development of the nation.To create a sustainable, inclusive society where the burdens of human suffering are alleviated through institutional excellence in healthcare, education, and cultural preservation.
               </p>
             </div>
           </motion.div>

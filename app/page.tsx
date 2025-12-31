@@ -3532,7 +3532,8 @@ import {
   HeartHandshake,
   Mail,
   ShieldCheck,
-  AlertCircle
+  AlertCircle,
+  X
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -3541,16 +3542,20 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { useState } from "react"
+import type { Variants } from "framer-motion"
 
-// ========== ANIMATION VARIANTS ==========
-const fadeInUp = {
+const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: "easeOut" },
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1],
+    },
   },
 }
+
 
 const staggerContainer = {
   hidden: { opacity: 0 },

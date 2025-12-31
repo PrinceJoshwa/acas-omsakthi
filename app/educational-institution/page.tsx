@@ -1109,12 +1109,20 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+import type { Variants } from "framer-motion"
 
-// --- Animation Variants ---
-const fadeInUp = {
-   hidden: { opacity: 0, y: 30 },
-   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+const fadeInUp: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1],
+    },
+  },
 }
+
 
 const staggerContainer = {
    hidden: { opacity: 0 },

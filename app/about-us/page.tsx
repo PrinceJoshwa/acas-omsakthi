@@ -842,11 +842,26 @@ import {
 } from "lucide-react"
 import { Card } from "@/components/ui/card"
 
-// --- Animation Variants ---
-const fadeInUp = {
-   hidden: { opacity: 0, y: 30 },
-   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+import type { Variants } from "framer-motion"
+
+const fadeInUp: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.16, 1, 0.3, 1], // ⭐ BEST
+    },
+  },
 }
+
+
+// --- Animation Variants ---
+// const fadeInUp = {
+//    hidden: { opacity: 0, y: 30 },
+//    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+// }
 
 const staggerContainer = {
    hidden: { opacity: 0 },

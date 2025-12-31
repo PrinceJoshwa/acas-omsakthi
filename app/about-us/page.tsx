@@ -859,7 +859,7 @@ export default function AboutUsPage() {
 
          {/* ================= HERO SECTION ================= */}
          <section className="relative h-[60vh] w-full overflow-hidden flex items-center justify-center bg-[#a7150b]">
-            <div className="absolute inset-0 z-0">
+            {/* <div className="absolute inset-0 z-0">
                <Image
                   src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766143744/a12_nbqg5x.webp"
                   alt="Trust Temple Background"
@@ -867,7 +867,7 @@ export default function AboutUsPage() {
                   className="object-cover opacity-30 grayscale mix-blend-multiply"
                   priority
                />
-            </div>
+            </div> */}
             <div className="absolute inset-0 bg-gradient-to-t from-[#a7150b] via-[#a7150b]/40 to-transparent z-10" />
 
             <div className="relative z-20 container mx-auto px-4 text-center">

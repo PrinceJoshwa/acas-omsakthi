@@ -121,7 +121,7 @@
 // // //           </motion.p>
 
 // // //           <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-8">
-// // //             <Link href="https://aspwct.omsakthiamma.in/" className="w-full sm:w-auto group">
+// // //             <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto group">
 // // //               <Button className="w-full sm:w-auto bg-[#a7150b] hover:bg-[#d91e11] text-white rounded-full px-10 py-7 text-lg font-bold shadow-[0_0_40px_-10px_rgba(167,21,11,0.6)] transition-all hover:scale-105 hover:shadow-[0_0_60px_-10px_rgba(167,21,11,0.8)]">
 // // //                 <Heart className="mr-3 w-5 h-5 fill-current group-hover:animate-pulse" />
 // // //                 Donate Now
@@ -559,7 +559,7 @@
 // // // //                 ))}
 // // // //               </ul>
 // // // //               <div className="space-y-4">
-// // // //                 <Link href="https://aspwct.omsakthiamma.in/" className="block w-full"><Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-lg rounded-xl">Donate via UPI / NetBanking</Button></Link>
+// // // //                 <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer" className="block w-full"><Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-lg rounded-xl">Donate via UPI / NetBanking</Button></Link>
 // // // //                 <Button onClick={() => setIsDocModalOpen(true)} variant="ghost" className="w-full text-muted-foreground hover:text-[#a7150b]">View 80G Certificate</Button>
 // // // //               </div>
 // // // //             </motion.div>
@@ -856,7 +856,7 @@
 // // //                 </div>
 // // //               </div>
 
-// // //               <Link href="https://aspwct.omsakthiamma.in/" className="block w-full mt-auto">
+// // //               <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer" className="block w-full mt-auto">
 // // //                 <Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-lg rounded-xl shadow-md transition-all hover:scale-[1.02]">
 // // //                   Donate via UPI / NetBanking
 // // //                 </Button>
@@ -1447,7 +1447,7 @@
 // //             className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-8"
 // //           >
 // //             <Link
-// //               href="https://aspwct.omsakthiamma.in/"
+// //               href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
 // //               className="w-full sm:w-auto group"
 // //             >
 // //               <Button className="w-full sm:w-auto bg-[#a7150b] hover:bg-[#d91e11] text-white rounded-full px-10 py-7 text-lg font-bold shadow-[0_0_40px_-10px_rgba(167,21,11,0.6)] transition-all hover:scale-105 hover:shadow-[0_0_60px_-10px_rgba(167,21,11,0.8)]">
@@ -1904,7 +1904,7 @@
 // // //                 ))}
 // // //               </ul>
 // // //               <div className="space-y-4">
-// // //                 <Link href="https://aspwct.omsakthiamma.in/" className="block w-full"><Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-lg rounded-xl">Donate via UPI / NetBanking</Button></Link>
+// // //                 <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer" className="block w-full"><Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-lg rounded-xl">Donate via UPI / NetBanking</Button></Link>
 // // //                 <Button onClick={() => setIsDocModalOpen(true)} variant="ghost" className="w-full text-muted-foreground hover:text-[#a7150b]">View 80G Certificate</Button>
 // // //               </div>
 // // //             </motion.div>
@@ -2210,7 +2210,7 @@
 // //               </div>
 
 // //               <Link
-// //                 href="https://aspwct.omsakthiamma.in/"
+// //                 href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
 // //                 className="block w-full mt-auto"
 // //               >
 // //                 <Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-base sm:text-lg rounded-xl shadow-md transition-all hover:scale-[1.02]">
@@ -2699,7 +2699,7 @@
 //             className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-8"
 //           >
 //             <Link
-//               href="https://aspwct.omsakthiamma.in/"
+//               href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
 //               className="w-full sm:w-auto"
 //             >
 //               <Button className="w-full sm:w-auto bg-[#a7150b] hover:bg-[#d91e11] text-white rounded-full px-10 py-7 text-lg font-bold shadow-lg transition-all hover:scale-105">
@@ -3164,7 +3164,7 @@
 //               </div>
 
 //               <Link
-//                 href="https://aspwct.omsakthiamma.in/"
+//                 href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
 //                 className="block w-full mt-auto"
 //               >
 //                 <Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-base sm:text-lg rounded-2xl shadow-lg transition-all hover:scale-[1.02]">
@@ -3641,7 +3641,7 @@ function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-8"
           >
             <Link
-              href="https://aspwct.omsakthiamma.in/"
+              href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
               className="w-full sm:w-auto"
             >
               <Button className="w-full sm:w-auto bg-[#a7150b] hover:bg-[#d91e11] text-white rounded-full px-10 py-7 text-lg font-bold shadow-lg transition-all hover:scale-105">
@@ -4107,7 +4107,7 @@ function Donation() {
               </div>
 
               <Link
-                href="https://aspwct.omsakthiamma.in/"
+                href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
                 className="block w-full mt-auto"
               >
                 <Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-base sm:text-lg rounded-2xl shadow-lg transition-all hover:scale-[1.02]">

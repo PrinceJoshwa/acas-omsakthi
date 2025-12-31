@@ -1063,7 +1063,7 @@
 //                   <p className="text-white/80 max-w-2xl mx-auto mb-10 text-lg">
 //                      Your contributions help us provide quality education and infrastructure to students from all walks of life.
 //                   </p>
-//                   <Link href="https://aspwct.omsakthiamma.in/">
+//                   <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
 //                      <Button className="bg-[#ffc107] hover:bg-[#e6ac00] text-[#1a1a1a] font-bold text-lg px-8 py-6 rounded-full shadow-xl transition-transform hover:scale-105">
 //                         Donate Now <ArrowRight className="w-5 h-5 ml-2" />
 //                      </Button>
@@ -1131,18 +1131,18 @@ const staggerContainer = {
 
 // --- FULL DATA PRESERVED FROM ORIGINAL ---
 const institutions = [
-   {
-      category: "Medical",
-      name: "Melmaruvathur Adhiparasakthi Institute of Medical Sciences and Research",
-      description: "A 1000+ bed super-specialty tertiary care hospital known for cost leadership and ethical treatment. Includes comprehensive departments like General Medicine, Surgery, and a dedicated Dialysis center.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044-27528108",
-      email: "maphsmelmaruvathur@yahoo.com",
-      website: "www.adhiparasakthischools.com",
-      icon: Stethoscope,
-      color: "text-blue-600",
-      bg: "bg-blue-50"
-   },
+   // {
+   //    category: "Medical",
+   //    name: "Melmaruvathur Adhiparasakthi Institute of Medical Sciences and Research",
+   //    description: "A 1000+ bed super-specialty tertiary care hospital known for cost leadership and ethical treatment. Includes comprehensive departments like General Medicine, Surgery, and a dedicated Dialysis center.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044-27528108",
+   //    email: "maphsmelmaruvathur@yahoo.com",
+   //    website: "www.adhiparasakthischools.com",
+   //    icon: Stethoscope,
+   //    color: "text-blue-600",
+   //    bg: "bg-blue-50"
+   // },
    {
       category: "Engineering",
       name: "Adhiparasakthi Engineering College (APCE)",
@@ -1169,95 +1169,95 @@ const institutions = [
       color: "text-purple-600",
       bg: "bg-purple-50"
    },
-   {
-      category: "Dental",
-      name: "Adhiparasakthi Dental College and Hospital",
-      description: "Providing top-tier dental education and oral healthcare services to the rural community.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044 -27528082, 27528083",
-      fax: "044- 27528081",
-      email: "apdcollege@gmail.com",
-      website: "www.apdch.com",
-      icon: HeartPulse,
-      color: "text-red-600",
-      bg: "bg-red-50"
-   },
-   {
-      category: "Nursing",
-      name: "Adhiparasakthi College of Nursing",
-      description: "Dedicated to training compassionate nursing professionals with modern medical facilities.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044-27529089 & 27529581",
-      fax: "044-27529581",
-      email: "apcon_mel@yahoo.com",
-      website: "www.apcon.org",
-      icon: HeartPulse,
-      color: "text-pink-600",
-      bg: "bg-pink-50"
-   },
-   {
-      category: "Physiotherapy",
-      name: "Adhiparasakthi College of Physiotherapy",
-      description: "State-of-the-art physiotherapy education combined with practical rehabilitation training.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044- 27529257 & 27529378",
-      fax: "044- 27529378",
-      email: "apcopt1994@yahoo.co.in",
-      website: "www.apcopt.org",
-      icon: Activity,
-      color: "text-cyan-600",
-      bg: "bg-cyan-50"
-   },
-   {
-      category: "Polytechnic",
-      name: "Adhiparasakthi Polytechnic College",
-      description: "Offering diploma courses with a focus on vocational training and skill development.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044-27529234, 27529281",
-      fax: "044- 27529955",
-      email: "principal_aptcmmr@yahoo.co.in",
-      website: "www.aptcmmr.com",
-      icon: Building2,
-      color: "text-indigo-600",
-      bg: "bg-indigo-50"
-   },
-   {
-      category: "Agriculture",
-      name: "Adhiparasakthi Agricultural College",
-      description: "Focusing on sustainable farming, hydroponics, and smart irrigation techniques.",
-      address: ["G.B. Nagar , Kalavai,", "Vellore District,", "Tamilnadu, India,", "Pin code – 632506."],
-      phone: "04173 – 295080",
-      fax: "04173 – 242066",
-      email: "deanapac@tnau.ac.in",
-      website: "www.apac.ac.in",
-      icon: Leaf,
-      color: "text-green-600",
-      bg: "bg-green-50"
-   },
-   {
-      category: "School",
-      name: "Adhiparasakthi Matriculation Higher Secondary School",
-      description: "Providing holistic education from primary to higher secondary levels.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044-27529208",
-      email: "apmhsschool_mmr@yahoo.co.in",
-      website: "www.adhiparasakthischools.com",
-      icon: School,
-      color: "text-yellow-600",
-      bg: "bg-yellow-50"
-   },
-   {
-      category: "Special Home",
-      name: "Adhiparasakthi Annai Illam",
-      description: "A dedicated home and school for special children, focusing on their holistic development.",
-      address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
-      phone: "044-27529299",
-      email: "annaiillamASPWCTtrust@gmail.com",
-      website: "www.apannaiillam.in",
-      icon: HeartPulse,
-      color: "text-[#a7150b]",
-      bg: "bg-red-100"
-   }
+   // {
+   //    category: "Dental",
+   //    name: "Adhiparasakthi Dental College and Hospital",
+   //    description: "Providing top-tier dental education and oral healthcare services to the rural community.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044 -27528082, 27528083",
+   //    fax: "044- 27528081",
+   //    email: "apdcollege@gmail.com",
+   //    website: "www.apdch.com",
+   //    icon: HeartPulse,
+   //    color: "text-red-600",
+   //    bg: "bg-red-50"
+   // },
+   // {
+   //    category: "Nursing",
+   //    name: "Adhiparasakthi College of Nursing",
+   //    description: "Dedicated to training compassionate nursing professionals with modern medical facilities.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044-27529089 & 27529581",
+   //    fax: "044-27529581",
+   //    email: "apcon_mel@yahoo.com",
+   //    website: "www.apcon.org",
+   //    icon: HeartPulse,
+   //    color: "text-pink-600",
+   //    bg: "bg-pink-50"
+   // },
+   // {
+   //    category: "Physiotherapy",
+   //    name: "Adhiparasakthi College of Physiotherapy",
+   //    description: "State-of-the-art physiotherapy education combined with practical rehabilitation training.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044- 27529257 & 27529378",
+   //    fax: "044- 27529378",
+   //    email: "apcopt1994@yahoo.co.in",
+   //    website: "www.apcopt.org",
+   //    icon: Activity,
+   //    color: "text-cyan-600",
+   //    bg: "bg-cyan-50"
+   // },
+   // {
+   //    category: "Polytechnic",
+   //    name: "Adhiparasakthi Polytechnic College",
+   //    description: "Offering diploma courses with a focus on vocational training and skill development.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044-27529234, 27529281",
+   //    fax: "044- 27529955",
+   //    email: "principal_aptcmmr@yahoo.co.in",
+   //    website: "www.aptcmmr.com",
+   //    icon: Building2,
+   //    color: "text-indigo-600",
+   //    bg: "bg-indigo-50"
+   // },
+   // {
+   //    category: "Agriculture",
+   //    name: "Adhiparasakthi Agricultural College",
+   //    description: "Focusing on sustainable farming, hydroponics, and smart irrigation techniques.",
+   //    address: ["G.B. Nagar , Kalavai,", "Vellore District,", "Tamilnadu, India,", "Pin code – 632506."],
+   //    phone: "04173 – 295080",
+   //    fax: "04173 – 242066",
+   //    email: "deanapac@tnau.ac.in",
+   //    website: "www.apac.ac.in",
+   //    icon: Leaf,
+   //    color: "text-green-600",
+   //    bg: "bg-green-50"
+   // },
+   // {
+   //    category: "School",
+   //    name: "Adhiparasakthi Matriculation Higher Secondary School",
+   //    description: "Providing holistic education from primary to higher secondary levels.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044-27529208",
+   //    email: "apmhsschool_mmr@yahoo.co.in",
+   //    website: "www.adhiparasakthischools.com",
+   //    icon: School,
+   //    color: "text-yellow-600",
+   //    bg: "bg-yellow-50"
+   // },
+   // {
+   //    category: "Special Home",
+   //    name: "Adhiparasakthi Annai Illam",
+   //    description: "A dedicated home and school for special children, focusing on their holistic development.",
+   //    address: ["Melmaruvathur,", "Kancheepuram District,", "Tamilnadu, India,", "Pin code – 603319."],
+   //    phone: "044-27529299",
+   //    email: "annaiillamASPWCTtrust@gmail.com",
+   //    website: "www.apannaiillam.in",
+   //    icon: HeartPulse,
+   //    color: "text-[#a7150b]",
+   //    bg: "bg-red-100"
+   // }
 ]
 
 // --- Specific Data from Prompt ---
@@ -1542,7 +1542,7 @@ export default function EducationalInstitutionPage() {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true }}
-                  className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+                  className="grid md:grid-cols-2 lg:grid-cols-2 gap-8"
                >
                   {institutions.map((item, idx) => (
                      <motion.div key={idx} variants={fadeInUp} className="h-full">
@@ -1611,7 +1611,7 @@ export default function EducationalInstitutionPage() {
                   <p className="text-white/80 max-w-2xl mx-auto mb-10 text-lg">
                      Your contributions help us provide quality education and infrastructure to students from all walks of life.
                   </p>
-                  <Link href="https://aspwct.omsakthiamma.in/">
+                  <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
                      <Button className="bg-[#ffc107] hover:bg-[#e6ac00] text-[#1a1a1a] font-bold text-lg px-8 py-6 rounded-full shadow-xl transition-transform hover:scale-105">
                         Donate Now <ArrowRight className="w-5 h-5 ml-2" />
                      </Button>

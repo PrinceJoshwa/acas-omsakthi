@@ -1546,7 +1546,7 @@
 //                         </p>
 
 //                         {/* Donate Button */}
-//                         <Link href="https://aspwct.omsakthiamma.in/">
+//                         <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
 //                             <Button className="w-full py-6 bg-[#ffc107] hover:bg-[#e6ad00] text-[#1a1a1a] font-bold text-lg rounded-xl shadow-lg">
 //                               DONATE NOW →
 //                             </Button>
@@ -1694,7 +1694,7 @@
 //             <p className="text-[#1a1a1a]/80 leading-relaxed mb-8">
 //                 Your donation helps us serve communities through healthcare, education, and cultural preservation. All donations are eligible for 80G tax benefits.
 //             </p>
-//             <Link href="https://aspwct.omsakthiamma.in/">
+//             <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
 //                 <Button className="bg-[#a7150b] hover:bg-[#8a0d08] text-white text-lg px-10 py-6 rounded-full shadow-xl">
 //                   <Heart className="w-5 h-5 mr-2 fill-current" /> Donate Now
 //                 </Button>
@@ -2036,7 +2036,7 @@ export default function DonatePage() {
                             Donations are tax exempted under <strong className="text-[#a7150b]">80G</strong> of Indian Income Tax Act
                         </p>
 
-                        <Link href="https://aspwct.omsakthiamma.in/">
+                        <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
                             <Button className="w-full h-14 bg-[#ffc107] hover:bg-[#e6ad00] text-[#1a1a1a] font-bold text-lg rounded-xl shadow-md transition-transform hover:scale-[1.02]">
                               DONATE NOW →
                             </Button>
@@ -2046,7 +2046,7 @@ export default function DonatePage() {
                             <p className="text-sm text-slate-500 mb-4">
                               Donate for a specific purpose?
                             </p>
-                            <Link href="https://aspwct.omsakthiamma.in/">
+                            <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
                               <Button variant="outline" className="w-full h-12 border-2 border-[#a7150b] text-[#a7150b] hover:bg-[#a7150b] hover:text-white font-bold rounded-xl">
                                   Select Specific Cause
                               </Button>
@@ -2181,7 +2181,7 @@ export default function DonatePage() {
             <p className="text-white/80 leading-relaxed mb-10 text-lg">
                 Your donation helps us serve communities through healthcare, education, and cultural preservation. All donations are eligible for 80G tax benefits.
             </p>
-            <Link href="https://aspwct.omsakthiamma.in/">
+            <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-gradient-to-br from-[#ffc107] to-[#ffb300]  hover:bg-[#8a0d08] text-black text-lg px-10 py-6 rounded-full shadow-2xl transition-transform hover:scale-105">
                   <Heart className="w-5 h-5 mr-2 fill-current text-black" /> Donate Now
                 </Button>

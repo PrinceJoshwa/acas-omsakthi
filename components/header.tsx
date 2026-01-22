@@ -90,7 +90,7 @@ export default function Header() {
           {/* Right Side Buttons */}
           <div className="flex items-center gap-3">
             {/* CTA Button - Now Yellow with Black text */}
-            <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer" className="hidden sm:block">
+            <Link href="/donate" target="_blank" rel="noopener noreferrer" className="hidden sm:block">
               <Button className="bg-[#ffc107] text-[#1a1a1a] hover:bg-[#e6ac00] rounded-full font-black shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">
                 <Heart className="w-4 h-4 mr-2 fill-current" />
                 Donate

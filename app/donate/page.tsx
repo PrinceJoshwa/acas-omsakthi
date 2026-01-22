@@ -126,7 +126,7 @@ export default function DonatePage() {
         </div>
 
         {/* Bottom Note */}
-        <motion.p 
+        {/* <motion.p 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
@@ -134,7 +134,7 @@ export default function DonatePage() {
         >
           All donations are eligible for tax exemption under Section 80G. <br/>
           Secure payment gateway powered by State Bank of India.
-        </motion.p>
+        </motion.p> */}
 
       </div>
     </main>

@@ -267,7 +267,7 @@ export default function Organisation() {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
-            <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
+            <Link href="/donate" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="bg-[#a7150b] text-white hover:bg-[#8a0d08] rounded-full font-bold px-8">
                 <Heart className="mr-2 w-5 h-5 fill-current" />
                 Support Our Work

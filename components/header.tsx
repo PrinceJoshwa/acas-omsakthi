@@ -137,7 +137,7 @@ export default function Header() {
               })}
               {/* Mobile CTA Button */}
               <Link
-                href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
+                href="/donate" target="_blank" rel="noopener noreferrer"
                 className="block px-4 py-3 font-black text-[#1a1a1a] bg-[#ffc107] hover:bg-[#e6ac00] rounded-lg text-center mt-2 transition-colors duration-300"
                 onClick={() => setMobileMenuOpen(false)}
               >

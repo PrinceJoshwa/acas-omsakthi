@@ -125,7 +125,7 @@ function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-5 mb-8"
           >
             <Link
-              href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
+              href="/donate" target="_blank" rel="noopener noreferrer"
               className="w-full sm:w-auto"
             >
               <Button className="w-full sm:w-auto bg-[#a7150b] hover:bg-[#d91e11] text-white rounded-full px-10 py-7 text-lg font-bold shadow-lg transition-all hover:scale-105">
@@ -459,7 +459,7 @@ function Donation() {
             </div>
 
             <Link
-              href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer"
+              href="/donate" target="_blank" rel="noopener noreferrer"
               className="block w-full mt-auto"
             >
               <Button className="w-full bg-[#a7150b] hover:bg-[#8a0d08] text-white h-14 text-base sm:text-lg rounded-2xl shadow-lg transition-all hover:scale-[1.02]">

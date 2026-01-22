@@ -53,7 +53,7 @@ export default function Footer() {
               {/* <li><Link href="/csr" className="hover:text-[#750A0A] transition-colors">CSR</Link></li> */}
               {/* <li><Link href="/educational-institution" className="hover:text-[#750A0A] transition-colors">Educational Institution</Link></li> */}
               <li><Link href="/activities" className="hover:text-[#750A0A] transition-colors">Activities</Link></li>
-              <li><Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer" className="hover:text-[#750A0A] transition-colors">Donate</Link></li>
+              <li><Link href="/donate" target="_blank" rel="noopener noreferrer" className="hover:text-[#750A0A] transition-colors">Donate</Link></li>
             </ul>
           </div>
 

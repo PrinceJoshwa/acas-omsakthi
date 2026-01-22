@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="bg-white p-1 rounded-full w-12 h-12 flex items-center justify-center shrink-0 shadow-sm">
                 <Image
-                  src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939097/logo_dl1zqj.png"
+                  src="https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/transparent-logo_png_square-removebg-preview.png?updatedAt=1767688734816"
                   alt="ASPWC Trust Logo"
                   width={40}
                   height={40}

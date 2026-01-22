@@ -122,13 +122,13 @@ export default function AboutUsPage() {
                        {
                          name: "His Holiness Bangaru Adigalar",
                          role: "Founder",
-                         image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766091903/3952Founder-President_k3xqz3.png",
+                         image: "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/3952Founder-President.png?updatedAt=1767688737331",
                          borderColor: "border-[#ffc107]",
                        },
                        {
                          name: "Smt. Lakshmi Bangaru Adigalar",
                          role: "President",
-                         image: "https://res.cloudinary.com/dsj3kcbf4/image/upload/v1766091895/Vice-President_z3lp84.jpg",
+                         image: "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/Vice-President.jpg?updatedAt=1767688708134",
                          borderColor: "border-[#a7150b]",
                        },
                      ].map((person, idx) => (

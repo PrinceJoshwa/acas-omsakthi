@@ -48,7 +48,7 @@ export default function Header() {
               className="relative w-12 h-12 md:w-14 md:h-14 bg-white rounded-full p-1 shadow-lg group-hover:shadow-xl transition-shadow overflow-hidden"
             >
               <Image
-                src="https://res.cloudinary.com/dsj3kcbf4/image/upload/v1764939097/logo_dl1zqj.png"
+                src="https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/transparent-logo_png_square-removebg-preview.png?updatedAt=1767688734816"
                 alt="ASPWCT Trust Logo"
                 fill
                 className="object-contain p-1"

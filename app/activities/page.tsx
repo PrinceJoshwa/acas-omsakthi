@@ -370,7 +370,7 @@ export default function ServicesPage() {
                   <p className="text-white/80 max-w-2xl mx-auto mb-10 text-lg">
                      Your contributions help us nourish thousands of devotees. Every meal served is a blessing shared.
                   </p>
-                  <Link href="https://aspwct.omsakthiamma.in/" target="_blank" rel="noopener noreferrer">
+                  <Link href="/donate" target="_blank" rel="noopener noreferrer">
                      <Button className="bg-[#ffc107] hover:bg-[#e6ac00] text-[#1a1a1a] font-bold text-lg px-8 py-6 rounded-full shadow-xl transition-transform hover:scale-105">
                         Donate Now <Heart className="w-5 h-5 ml-2 fill-current" />
                      </Button>

@@ -91,7 +91,7 @@ export default function AboutUsPage() {
                   >
                      {/* Placeholder for Kitchen/Annadhanam Image */}
                      <Image
-                        src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?q=80&w=2070&auto=format&fit=crop"
+                        src="/Annadhanam.jpeg"
                         alt="Annadhanam Service"
                         fill
                         className="object-cover"

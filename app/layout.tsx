@@ -50,23 +50,11 @@ export const metadata: Metadata = {
   title: "ACAS - Adhiparasakthi Charitable and Annadhanam Society",
   description:
     "Empowering communities through healthcare, education, and cultural preservation. Serving humanity with compassion and dedication.",
-  // icons: {
-  //   icon: [
-  //     {
-  //       url: "/icon-light-32x32.png",
-  //       media: "(prefers-color-scheme: light)",
-  //     },
-  //     {
-  //       url: "/icon-dark-32x32.png",
-  //       media: "(prefers-color-scheme: dark)",
-  //     },
-  //     {
-  //       url: "/icon.svg",
-  //       type: "image/svg+xml",
-  //     },
-  //   ],
-  //   apple: "/apple-icon.png",
-  // },
+  icons: {
+    icon: "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png",
+    shortcut: "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png",
+    apple: "https://ik.imagekit.io/j0xzq9pns/Omsakthi%20/logo_dl1zqj.png", // optional
+  },
 }
 
 export default function RootLayout({
